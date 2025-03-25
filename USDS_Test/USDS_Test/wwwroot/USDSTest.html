@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>USDS Test</title>
+
+    <script src="USDSTest.js"></script>
+    <link rel="stylesheet" href="USDSTest.css">
+
+</head>
+<body>
+
+    <form id="formPost" name="formPost" method="post" action="http://localhost:7194/api/ForwardRequest">
+
+        <input type="hidden" id="hidUrl" name="hidUrl" value="https://www.ecfr.gov/api/admin/v1/agencies.json" />
+        <input type="submit" id="btnSubmit" name="btnSubmit" value="submit" style="display:none;visibility:hidden;" />
+
+    </form>
+
+    <input id="btnGetAgencies" name="btnAgencyAnalysis" type="button" onclick="btnAgencyAnalysis_OnClick()" value="Run Agency Analysis" />
+    <br/>
+
+    <input id="btnGetAgencies" name="btnGetAgencies" type="button" onclick="btnGetAgencies_OnClick()" value="Get Agencies" style="display:none;visibility:hidden;" />
+    <br />
+
+    <table id="outputTable" name="outputTable"></table>    
+    <br/>
+
+    <div id="divOutputTable" name="divOutputTable" style="float:left">
+        <table>
+        </table>
+    </div>
+
+
+    <br />
+    <br />
+
+    <div id="divAgencies" name="divAgencies" style="display:none;visibility:hidden;" />
+
+    <div id="divAgenciesRegulations" name="divAgencies" style="display:none;visibility:hidden;" />
+
+    <div id="divAgencies2" name="divAgencies" style="display:none;visibility:hidden;" />
+
+
+
+</body>
+
+</html>

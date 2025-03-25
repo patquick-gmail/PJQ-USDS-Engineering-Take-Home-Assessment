@@ -1,0 +1,8 @@
+﻿body {
+}
+
+
+td, th {
+    width: 120px;
+    border: 1px solid black;
+}

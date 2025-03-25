@@ -1,0 +1,13 @@
+
+
+https://github.com/patquick-gmail/PJQ-USDS-Engineering-Take-Home-Assessment/tree/main
+
+https://www.ecfr.gov/developers/documentation/api/v1#/Admin%20Service/get_api_admin_v1_agencies_json
+
+https://github.com/usgpo/bulk-data/blob/main/ECFR-XML-User-Guide.md
+
+https://www.govinfo.gov/bulkdata
+
+https://www.ecfr.gov/reader-aids/ecfr-developer-resources/rest-api-interactive-documentation
+
+https://mail.google.com/mail/u/0/popout?ver=olhsjr6gamaf&search=inbox&th=%23thread-f%3A1827323865883920970&cvid=1
